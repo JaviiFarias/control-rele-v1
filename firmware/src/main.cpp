@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "Chaca444";
-const char* password = "javjime002";
+const char* ssid = "";
+const char* password = "";
 
-const char* apiBaseUrl = "https://soyjavierfarias.com/api";
+const char* apiBaseUrl = "";
 
 const int relePin = 14;  // GPIO14 (D5)
 
@@ -76,6 +76,4 @@ void loop() {
       estadoAnterior = estado;
     }
   }
-
-  // Acá podés poner código extra que no bloquee
 }
