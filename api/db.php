@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = 'localhost';
-$dbuser = 'c2761373_miiotdb';
-$dbpass = 'pubo17DAvu';
-$dbname = 'c2761373_miiotdb';
+$dbhost = '';
+$dbuser = '';
+$dbpass = '';
+$dbname = '';
 
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
