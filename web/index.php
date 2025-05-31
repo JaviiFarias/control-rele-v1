@@ -1,6 +1,6 @@
 <?php
 // index.php
-$api_base_url = "https://soyjavierfarias.com/api";
+$api_base_url = "";
 
 function apiGetEstado($url) {
     $response = @file_get_contents($url . "/get_estado.php");
@@ -30,7 +30,7 @@ if (isset($_GET['accion'])) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Control de Relé - SoyJavierFarias</title>
+    <title>Control de Relé</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
         body {
